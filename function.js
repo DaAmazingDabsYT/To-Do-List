@@ -31,3 +31,4 @@ function saveData(){
 function show(){
     unList.innerHTML=localStorage.getItem("data")
 }
+show()

@@ -84,13 +84,13 @@ li.checked{
     text-decoration: line-through;
 } */
 ul li { position: relative; list-style: none; font-size:17px; padding:12px 4px 12px 50px; cursor:pointer; } 
-ul li::before { height:28px; width:28px; content: '' !important; display: inline-block; background-image: url(images/checkbox-blank-line.png); background-size: cover; top: 50%; transform: translateY(-50%); left: 0; position: absolute; }
+ul li::before { height:28px; width:28px; content: '' !important; display: inline-block; background-image: url(checkbox-blank-line.png); background-size: cover; top: 50%; transform: translateY(-50%); left: 0; position: absolute; }
 
 ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(images/checkbox-line.png);
+    background-image: url(checkbox-line.png);
 }
 ul li span{
     position:absolute;
